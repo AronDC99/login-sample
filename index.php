@@ -50,7 +50,7 @@ if(isset($_POST['login'])){
             $_SESSION['userName']=$user;
             $Connection=null;
         echo '<meta http-equiv="refresh" content="0; url=success.php" />';
-                           exit();
+        exit();
     }
     else{
         echo '<script>alert("Incorrect Password");</script>';
